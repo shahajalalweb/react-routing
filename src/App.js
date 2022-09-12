@@ -5,10 +5,12 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Error from './components/Error';
 import Home from './components/Home';
+import Navlink from './components/NavLink';
 
 function App() {
   return (
     <BrowserRouter>
+      <Navlink />
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/About' element={<About/>}/>

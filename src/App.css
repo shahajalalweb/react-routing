@@ -28,6 +28,33 @@
   color: #61dafb;
 }
 
+.sizing {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px ;
+}
+
+.navDiv {
+  background-color: #8695b5;
+  padding: 15px;
+  text-align: center;
+}
+
+a {
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: aliceblue;
+}
+
+nav .active {
+  color: gold;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
