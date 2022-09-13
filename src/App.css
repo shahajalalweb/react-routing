@@ -28,6 +28,23 @@
   color: #61dafb;
 }
 
+section {
+  display: grid;
+  grid-gap: 1rem;
+  font-size: 15px;
+  grid-template-columns: auto auto auto;
+}
+
+@media screen and (max-width: 800px) {
+  section {
+    grid-template-columns: auto auto;
+  }
+}
+
+article {
+  background-color: aliceblue;
+}
+
 .sizing {
   text-align: center;
   font-weight: bold;
@@ -39,6 +56,8 @@ button {
   text-align: center;
   margin: 0 auto;
 }
+
+
 
 .navDiv {
   background-color: #8695b5;
