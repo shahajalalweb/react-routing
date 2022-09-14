@@ -24,7 +24,7 @@ const About = () => {
               return <article key={id}>
                   <h2>{title}</h2>
                   <p>{trancateString(Desc, 300)}</p>
-                  <Link to={title}>Learn More...</Link>
+                  <Link to={title} state={{id, title, Desc}}>Learn More...</Link>
               </article>
             })
           }
