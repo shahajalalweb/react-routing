@@ -35,6 +35,23 @@ section {
   grid-template-columns: auto auto auto;
 }
 
+.form {
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.form input {
+  padding: 5px;
+  margin: 10px;
+}
+
+.form button {
+  margin: 10px;
+}
+
+
 @media screen and (max-width: 800px) {
   section {
     grid-template-columns: auto auto;

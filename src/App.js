@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import Error from './components/Error';
 import Home from './components/Home';
 import Navlink from './components/NavLink';
+import User from './components/user';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/About' element={<About/>}/>
         <Route path='/About/:title' element={<Blog/>}/>
+        <Route path='/user' element={<User />} />
         <Route path='/Contact' element={<Contact/>}/>
         <Route path='*' element={<Error/>}/>
 
